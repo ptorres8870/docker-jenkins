@@ -15,7 +15,7 @@ pipeline {
             steps {
                 bat 'docker stop mi-contenedor || true'
                 bat 'docker rm mi-contenedor || true'
-                bat 'docker run -d -p 8080:80 --name mi-contenedor mi-pagina-web'
+                bat 'docker run -d -p 8081:80 --name mi-contenedor mi-pagina-web'
             }
         }
     }
