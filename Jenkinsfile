@@ -1,5 +1,5 @@
 ﻿pipeline
- > Jenkinsfile
+Jenkinsfile
 echo     agent any >> Jenkinsfile
 echo     stages { >> Jenkinsfile
 echo         stage('Checkout') { >> Jenkinsfile
